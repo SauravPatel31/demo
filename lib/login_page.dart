@@ -11,7 +11,12 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("This Is Login Page"),
+      body: Column(
+        children: [
+          Text("Welcome"),
+          Text("This Is Login Page"),
+        ],
+      ),
     );
   }
 }
